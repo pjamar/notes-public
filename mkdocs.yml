@@ -1,0 +1,24 @@
+site_name: notes-public
+site_description: A set of notes and blog posts for later reference.
+site_url: https://pjamar.github.io/notes-public/
+
+nav:
+  - Home: index.md
+  - Notes:
+      - Caps Lock to Hyper with Karabiner-Elements: posts/caps-lock-to-hyper.md
+      - Quick Window Switching with Hammerspoon: posts/quick-window-switch-hammerspoon.md
+
+theme:
+  name: lantana
+
+markdown_extensions:
+  - meta
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - toc:
+      permalink: true
