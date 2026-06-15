@@ -1,3 +1,0 @@
-mkdocs
-git+https://github.com/wsoft-ws/lantana.git@ea409bfe5dc159e926e3d67c303d8956743e087f
-pygments==2.19.2

@@ -1,11 +1,4 @@
----
-title: "Quick Window Switching with Hammerspoon"
-date: 2026-06-14
-tags:
-  - hammerspoon
-  - macos
-  - productivity
----
+# macOS Quick Window Switching with Hammerspoon
 
 Hammerspoon provides the window-switching layer for this setup. The config lives in `~/.hammerspoon/init.lua`, and the app is available from the official site: https://www.hammerspoon.org/.
 
@@ -17,7 +10,7 @@ The pattern uses `hyper + letter` bindings to manage an app in three states:
 
 The helper also restores minimized windows before focusing them, which avoids the macOS behavior where an app is selected but its window stays hidden.
 
-If `hyper` is not already mapped on the keyboard, it can be assigned to Caps Lock with Karabiner-Elements. See [Caps Lock to Hyper with Karabiner-Elements](caps-lock-to-hyper.md) for the setup.
+If `hyper` is not already mapped on the keyboard, it can be assigned to Caps Lock with Karabiner-Elements. See [macOS Caps Lock to Hyper with Karabiner-Elements](macos-caps-lock-to-hyper.md) for the setup.
 
 ```lua
 local hyper = {"ctrl", "alt", "shift", "cmd"}
@@ -131,3 +124,4 @@ Usage summary:
 - `hyper + letter` focuses the app if it is already running
 - repeated presses cycle through that app’s visible windows
 - minimized windows are restored before focus
+
